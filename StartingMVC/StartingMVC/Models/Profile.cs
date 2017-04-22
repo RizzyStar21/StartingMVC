@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace StartingMVC.Models
+{
+    public class Profile
+    {
+        public string Username { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Email { get; set; }
+        public string Age { get; set; }
+        public string FavoriteColor { get; set; }
+    }
+}
